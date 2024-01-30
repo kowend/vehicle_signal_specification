@@ -173,6 +173,16 @@ EngineCoolant.Temperature:
   unit: celsius
   description: Engine coolant temperature.
 
+EngineCoolant.Level:
+  datatype: string
+  type: sensor
+  allowed: [
+    'CRITICALLY_LOW',  # Critically low, immediate action required
+    'LOW',             # Level below recommended range, but not critical
+    'NORMAL',          # Within normal range, no need for driver action
+    ]
+  description: Engine coolant level.
+
 #
 # Manifold Absolute Pressure
 #
