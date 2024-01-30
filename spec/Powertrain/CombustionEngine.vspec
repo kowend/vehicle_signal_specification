@@ -110,6 +110,16 @@ EngineOilLevel:
     ]
   description: Engine oil level.
 
+EngineCoolantLevel:
+  datatype: string
+  type: sensor
+  allowed: [
+    'CRITICALLY_LOW',  # Critically low, immediate action required
+    'LOW',             # Level below recommended range, but not critical
+    'NORMAL',          # Within normal range, no need for driver action
+    ]
+  description: Engine coolant level.
+
 OilLifeRemaining:
   datatype: int32
   type: sensor
