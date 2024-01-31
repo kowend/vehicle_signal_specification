@@ -148,7 +148,7 @@ EngineOil.LifeRemaining:
            by Vehicle.Service.TimeToService.
   unit: s
 
-EngineOil.Temperature
+EngineOil.Temperature:
   datatype: float
   type: sensor
   unit: celsius
