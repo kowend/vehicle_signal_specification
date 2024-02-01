@@ -277,7 +277,6 @@ TPS:
   max: 100
   description: Current throttle position.
 
-
 #
 # Engine Oil Pressure
 #
@@ -286,7 +285,6 @@ EOP:
   type: sensor
   unit: kPa
   description: Engine oil pressure.
-
 
 #
 # Current Power
