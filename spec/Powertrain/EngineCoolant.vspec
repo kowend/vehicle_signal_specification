@@ -6,26 +6,19 @@
 #
 # SPDX-License-Identifier: MPL-2.0
 
-#
-# Engine coolant
-#
-EngineCoolant:
-  type: branch
-  description: Signals related to the engine coolant
-
-EngineCoolant.Capacity:
+Capacity:
   datatype: float
   type: attribute
   description: Engine coolant capacity in liters.
   unit: l
 
-EngineCoolant.Temperature:
+Temperature:
   datatype: float
   type: sensor
   unit: celsius
   description: Engine coolant temperature.
 
-EngineCoolant.Level:
+Level:
   datatype: string
   type: sensor
   allowed: [
@@ -35,7 +28,7 @@ EngineCoolant.Level:
     ]
   description: Engine coolant level.
 
-EngineCoolant.LifeRemaining:
+LifeRemaining:
   datatype: int32
   type: sensor
   description: Remaining engine coolant life in seconds.
